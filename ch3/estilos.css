@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* Referência de reset é o necolas com o normalize.css: https://github.com/necolas/normalize.css*/
+}
+
+.cabecalho {
+  background: #0082c7;
+  /*padding: 16px; Não usamos mais o padding aqui, pois o cabecalho recebe o padding que vem do container*/
+}
+
+/*_ Cartão _*/
+.cartao {
+  background: #ebef40;
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: left;
+
+  flex-basis: 190px; /* Tamanho base do elemento flex */
+  flex-grow: 1; /* O quanto cresce, relativamente aos outros itens */
+}
+
+@media (min-width: 590px) {
+  .cartao {
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/*_ Container Geral da Aplicação _*/
+.container {
+  padding: 0 10%;
+}
+
+/*_ Mural _*/
+.mural {
+  display: flex;
+  flex-wrap: wrap; /* Fazer os itens quebrarem de linha fugindo do comportamento padrão do flex de tentar alinhar tudo*/
+  /* Progressive enhancement */
+  text-align: center;
+}
+
+/* Manipula a visualização do mural */
+.mural--linhas {
+  flex-direction: column;
+}
+.mural--linhas .cartao {
+  width: auto;
+  flex-basis: auto;
+  display: block;
+}

@@ -51,3 +51,16 @@
   flex-basis: auto;
   display: block;
 }
+
+
+#mudaLayout {
+    display: none;
+}
+
+@media(min-width: 560px){
+
+    #mudaLayout {
+        display: block;
+    }
+
+}

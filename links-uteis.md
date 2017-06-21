@@ -1,9 +1,9 @@
 # Links Uteis
 
 ## CSS
-Flexbox:http://flexboxfroggy.com/
-BEM: https://www.youtube.com/watch?v=lpxXHkZSl1Q, http://blog.caelum.com.br/comecando-a-organizar-seu-css/
-Normalize: https://github.com/necolas/normalize.css
+- Flexbox:http://flexboxfroggy.com/
+- BEM: https://www.youtube.com/watch?v=lpxXHkZSl1Q, http://blog.caelum.com.br/comecando-a-organizar-seu-css/
+- Normalize: https://github.com/necolas/normalize.css
 
 ## JavaScript
 - Abstração do jQuery (entendendo como funciona): https://github.com/soutomario/jBusca

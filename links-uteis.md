@@ -7,6 +7,7 @@
 
 ## JavaScript
 - Abstração do jQuery (entendendo como funciona): https://github.com/soutomario/jBusca
+- Expressões Regulares: https://regexcrossword.com/
 
 ### Cursos
 - https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web

@@ -1,5 +1,6 @@
 # Links Uteis
 
+
 ## CSS
 - Flexbox:http://flexboxfroggy.com/
 - BEM: https://www.youtube.com/watch?v=lpxXHkZSl1Q, http://blog.caelum.com.br/comecando-a-organizar-seu-css/
@@ -7,7 +8,10 @@
 
 ## JavaScript
 - Abstração do jQuery (entendendo como funciona): https://github.com/soutomario/jBusca
+
+### Expressões Regulares:
 - Expressões Regulares: https://regexcrossword.com/
+- Playground: https://regex101.com/
 
 ### Cursos
 - https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web

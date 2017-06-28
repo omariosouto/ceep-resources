@@ -2,7 +2,7 @@
 
 
 ## CSS
-- Flexbox:http://flexboxfroggy.com/
+- Flexbox:http://flexboxfroggy.com/, http://www.flexboxpatterns.com/ (Dica do aluno Felipe Borelli)
 - BEM: https://www.youtube.com/watch?v=lpxXHkZSl1Q, http://blog.caelum.com.br/comecando-a-organizar-seu-css/
 - Normalize: https://github.com/necolas/normalize.css
 
@@ -18,3 +18,6 @@
 - https://www.alura.com.br/curso-online-jquery-a-biblioteca-do-mercado
 - https://www.alura.com.br/curso-online-expressoes-regulares
 - https://www.alura.com.br/carreira-engenheiro-javascript
+
+## Gerais
+- https://www.producthunt.com/@mscccc/collections/learning-to-code?utm_content=buffer9f751&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer (Dica do aluno Felipe Borelli)

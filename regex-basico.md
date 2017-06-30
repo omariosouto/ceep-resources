@@ -4,7 +4,7 @@
 
 Aqui serão reunidos algumas dicas básicas e exemplos sobre como trabalhar com Regex.
 
-## O que regex?
+## O que é regex?
 Uma forma de escrita, que permite que encontremos padrões de texto. Estranho né? mas pensa comigo, todo texto tem um padrão.
 Ex:  `9-9899-9909`
 

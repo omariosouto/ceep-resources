@@ -45,7 +45,7 @@ E caso meu email tivese números eu poderia adicionar numeros de 0-9 nas chaves,
 
 E para eliminar a dependência dos números antes do @, podemos utilizar o seletor +, que permite com que façamos a busca por qualquer caracter que bater com nossa regra do \w, até encontrarmos um @
 
-> \w{11}@[a-zA-Z]{5}.[a-zA-Z]{3} 
+> \w+@[a-zA-Z]{5}.[a-zA-Z]{3} 
 
 
 

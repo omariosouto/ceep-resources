@@ -1,3 +1,5 @@
+# Artigo em Construção !!!
+
 # Manual Básico de Sobrevivência para lidar com Regex
 
 Aqui serão reunidos algumas dicas básicas e exemplos sobre como trabalhar com Regex.
@@ -29,15 +31,26 @@ Porém esse cara ficou meio grandinho né? Uma forma de deixar ele mais curto, �
 
 ## Regex em Textos
 
-Só que para validarmos um email por exemplo, não poderiamos utilizar esse cara. Pois o meu email por exemplo, nem sequer tem um numero
-
 > soutomarios@gmail.com
 
-Felizmente, o cara que criou as expressões regulares pensou nesse cenrio e criou mais um carinha na regex que é o **\w**, ele permite que nós validemos 
+Pode ser intereprado como
+
+> [a-zA-Z]{11}@[a-zA-Z]{5}.[a-zA-Z]{3} // Esse cara está procurando caracteres maiusculos e minusculos quando eu uso o conjunto que são as chaves **[]**, nelas eu consigo especificar um conjunto  de caracteres que podem existir, nesse caso qualquer caracter de a até z. 
 
 ## Regex em Textos mistos
+
+E caso meu email tivese números eu poderia adicionar numeros de 0-9 nas chaves, ou utilizar o \w, para validar caracteres alfa numéricos.
+
+> \w{11}@[a-zA-Z]{5}.[a-zA-Z]{3} 
+
+E para eliminar a dependência dos números antes do @, podemos utilizar o seletor +, que permite com que façamos a busca por qualquer caracter que bater com nossa regra do \w, até encontrarmos um @
+
+> \w{11}@[a-zA-Z]{5}.[a-zA-Z]{3} 
+
 
 
 ## Onde brincar mais com esses caras?
 
 https://regex101.com/
+
+

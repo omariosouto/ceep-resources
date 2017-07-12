@@ -28,4 +28,12 @@ Pronto agora você tem um ponto que pode restaurar o seu código no futuro.
 
 ## Por dentro do Github.
 
-Após criar sua conta, encontre a opcão  
+Após criar sua conta, encontre a opcão "create new repository".
+
+Informe o nome e a descrição do seu projeto, e agora você tem a pasta virtual do seu projeto.
+
+Com tudo isso pronto, siga os passos que o próprio github sugere para deixar o código da sua máquina guardado no Github.
+
+> git remote (cria uma sincronia da sua pasta local com a pasta virtual)
+
+> git push (faz o código ir da sua máquina local para a pasta virtual no Github)
